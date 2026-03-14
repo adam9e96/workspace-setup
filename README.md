@@ -34,6 +34,27 @@ DriveRoot (ex: Z:\, D:\)/
 
 ```
 
+### Mermaid
+
+```mermaid
+flowchart LR
+    Base["Base<br/>Basecamp"] --> Dev["Dev<br/>Sync"]
+    Base --> Temp["Temp<br/>No-Sync"]
+    Base --> Cache["Cache<br/>No-Sync"]
+    Base --> SDKs["SDKs<br/>No-Sync"]
+    Base --> VMs["VMs<br/>No-Sync"]
+
+    Dev --> Work["work"]
+    Dev --> Projects["projects"]
+    Dev --> Study["study"]
+    Dev --> Config["config"]
+    Dev --> Scripts["scripts"]
+    Dev --> Tools["tools"]
+    Dev --> Resources["resources"]
+    Dev --> Documents["documents"]
+    Dev --> Archive["archive"]
+```
+
 ## 📝 Detailed Description
 
 ### 1. Base (최상위 작업 루트)
